@@ -21,7 +21,4 @@ class HTMLPet
     system("xdg-open #{@html_new}")
   end
 
-  def self.root
-    File.expand_path '..', __FILE__
-  end
 end
